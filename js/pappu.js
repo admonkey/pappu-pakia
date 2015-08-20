@@ -245,7 +245,7 @@
           self.clones.splice(index, 1);
 
         clone.x += utils.randomNumber(20, 40);
-        clone.y += utils.randomNumber(-30, 30);
+        clone.y += utils.randomNumber(-35, 35);
 
         clone.draw(ctx);
       });
